@@ -1,0 +1,255 @@
+{
+  "dataset_name": "Small (10 Nodes, 12 Parcels, 20kg Capacity)",
+  "description": "Seeded benchmark dataset: 10 nodes, 12 parcels, 20kg capacity",
+  "capacity": 20,
+  "graph": {
+    "num_nodes": 10,
+    "edges": [
+      {
+        "u": 0,
+        "v": 3,
+        "weight": 15.0
+      },
+      {
+        "u": 0,
+        "v": 1,
+        "weight": 28.4
+      },
+      {
+        "u": 0,
+        "v": 9,
+        "weight": 12.3
+      },
+      {
+        "u": 0,
+        "v": 5,
+        "weight": 25.7
+      },
+      {
+        "u": 0,
+        "v": 2,
+        "weight": 56.7
+      },
+      {
+        "u": 1,
+        "v": 7,
+        "weight": 46.0
+      },
+      {
+        "u": 1,
+        "v": 9,
+        "weight": 31.5
+      },
+      {
+        "u": 1,
+        "v": 4,
+        "weight": 33.1
+      },
+      {
+        "u": 2,
+        "v": 3,
+        "weight": 50.6
+      },
+      {
+        "u": 2,
+        "v": 5,
+        "weight": 64.4
+      },
+      {
+        "u": 3,
+        "v": 5,
+        "weight": 16.3
+      },
+      {
+        "u": 3,
+        "v": 9,
+        "weight": 19.5
+      },
+      {
+        "u": 3,
+        "v": 6,
+        "weight": 36.0
+      },
+      {
+        "u": 3,
+        "v": 8,
+        "weight": 35.4
+      },
+      {
+        "u": 4,
+        "v": 7,
+        "weight": 13.2
+      },
+      {
+        "u": 4,
+        "v": 9,
+        "weight": 26.3
+      },
+      {
+        "u": 5,
+        "v": 8,
+        "weight": 19.3
+      },
+      {
+        "u": 5,
+        "v": 9,
+        "weight": 21.1
+      },
+      {
+        "u": 5,
+        "v": 6,
+        "weight": 26.0
+      },
+      {
+        "u": 6,
+        "v": 8,
+        "weight": 21.2
+      },
+      {
+        "u": 7,
+        "v": 9,
+        "weight": 36.6
+      }
+    ],
+    "coordinates": {
+      "0": [
+        50.0,
+        50.0
+      ],
+      "1": [
+        57.3,
+        22.53
+      ],
+      "2": [
+        91.87,
+        88.16
+      ],
+      "3": [
+        47.04,
+        64.71
+      ],
+      "4": [
+        24.31,
+        24.95
+      ],
+      "5": [
+        30.97,
+        67.32
+      ],
+      "6": [
+        24.11,
+        92.4
+      ],
+      "7": [
+        11.33,
+        22.4
+      ],
+      "8": [
+        13.0,
+        74.29
+      ],
+      "9": [
+        37.99,
+        47.45
+      ]
+    }
+  },
+  "parcels": [
+    {
+      "pid": "P0001",
+      "dest": 4,
+      "weight": 6,
+      "priority": 4,
+      "deadline": 5,
+      "value": 59
+    },
+    {
+      "pid": "P0002",
+      "dest": 9,
+      "weight": 4,
+      "priority": 5,
+      "deadline": 16,
+      "value": 58
+    },
+    {
+      "pid": "P0003",
+      "dest": 5,
+      "weight": 8,
+      "priority": 2,
+      "deadline": 23,
+      "value": 21
+    },
+    {
+      "pid": "P0004",
+      "dest": 8,
+      "weight": 2,
+      "priority": 3,
+      "deadline": 14,
+      "value": 40
+    },
+    {
+      "pid": "P0005",
+      "dest": 3,
+      "weight": 2,
+      "priority": 4,
+      "deadline": 36,
+      "value": 40
+    },
+    {
+      "pid": "P0006",
+      "dest": 6,
+      "weight": 4,
+      "priority": 4,
+      "deadline": 22,
+      "value": 42
+    },
+    {
+      "pid": "P0007",
+      "dest": 4,
+      "weight": 7,
+      "priority": 4,
+      "deadline": 15,
+      "value": 49
+    },
+    {
+      "pid": "P0008",
+      "dest": 2,
+      "weight": 7,
+      "priority": 4,
+      "deadline": 21,
+      "value": 43
+    },
+    {
+      "pid": "P0009",
+      "dest": 4,
+      "weight": 2,
+      "priority": 5,
+      "deadline": 45,
+      "value": 50
+    },
+    {
+      "pid": "P0010",
+      "dest": 6,
+      "weight": 5,
+      "priority": 4,
+      "deadline": 26,
+      "value": 40
+    },
+    {
+      "pid": "P0011",
+      "dest": 4,
+      "weight": 7,
+      "priority": 1,
+      "deadline": 27,
+      "value": 10
+    },
+    {
+      "pid": "P0012",
+      "dest": 7,
+      "weight": 1,
+      "priority": 4,
+      "deadline": 15,
+      "value": 49
+    }
+  ]
+}
